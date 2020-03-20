@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: url(/images/backround\ -\ section\ 01.png);
+    background-image: url(../images/backround\ -\ section\ 01.png);
     background-repeat: no-repeat;
     height: 1080px;
 }
@@ -219,7 +219,7 @@ nav {
 
 section.sec02 {
     height: 1080px;
-    background-image: url(/images/network10.png);
+    background-image: url(../images/network10.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
