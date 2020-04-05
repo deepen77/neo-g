@@ -27,7 +27,7 @@ nav {
     position: fixed;
     height: 6vh;
     width: 100%;
-    background: #14141481;
+    background: #141414;
     z-index: 1;
 }
 
@@ -800,7 +800,7 @@ footer i {
 
     /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     .nav-links {
-        background: #14141481;
+        background: #141414;
         flex-direction: column;
         height: auto;
         padding-bottom: 30px;
@@ -834,7 +834,27 @@ footer i {
         top: 50%;
         transform: translateY(-50%);
     }
-
+    #bottom-point03 {
+        position: absolute;
+        top: 2280px;
+        left: 50%;
+        color: #bea67c;
+        font-size: 100px;
+    }
+    #bottom-point04 {
+        position: absolute;
+        top: 4630px;
+        left: 50%;
+        color: #bea67c;
+        font-size: 100px;
+    }
+    #bottom-point05 {
+        position: absolute;
+        top: 6080px;
+        left: 50%;
+        color: #bea67c;
+        font-size: 100px;
+    }
 
     /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
