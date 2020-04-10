@@ -613,6 +613,24 @@ div.bar-ourteam {
     padding-top: 25px;
 
 }
+.ocupation {
+    padding-top: 20px;
+}
+.ocupation-description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.ourteam-email-button {
+    margin-top: 20px;
+    background-color: #bea67c9a;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.835);
+}
+
 
 #bottom-point05 {
     position: absolute;
@@ -892,7 +910,7 @@ footer i {
 
     #bottom-point05 {
         position: absolute;
-        top: 6080px;
+        top: 7080px;
         left: 50%;
         color: #bea67c;
         font-size: 100px;
@@ -982,7 +1000,7 @@ footer i {
     }
 
     section.sec04 {
-        height: 1450px;
+        height: 2450px;
         max-width: 100%;
     }
 
