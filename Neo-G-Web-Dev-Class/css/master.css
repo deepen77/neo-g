@@ -8,6 +8,7 @@ body {
     margin: auto;
     height: 4000px;
 }
+
 #bottom-point01 {
     position: absolute;
     top: -80px;
@@ -459,8 +460,9 @@ section.sec03 {
     border: 0;
     cursor: pointer;
 }
+
 .modal {
-    display: none; 
+    display: none;
     position: fixed;
     z-index: 1;
     padding-top: 100px;
@@ -469,33 +471,33 @@ section.sec03 {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-  }
-  
-  .modal-content {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
     background-color: #fefefe00;
     margin: auto;
     padding: 20px;
-    
+
     width: 80%;
-  }
-  
-  .close {
+}
+
+.close {
     position: relative;
-    color:  #bea67c;
-    top: -430px;
-    left: 641px;
+    color: #bea67c;
+    top: -434px;
+    left: 640px;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
 #bottom-point04 {
     position: absolute;
@@ -871,6 +873,7 @@ footer i {
         top: 50%;
         transform: translateY(-50%);
     }
+
     #bottom-point03 {
         position: absolute;
         top: 2280px;
@@ -878,6 +881,7 @@ footer i {
         color: #bea67c;
         font-size: 100px;
     }
+
     #bottom-point04 {
         position: absolute;
         top: 4630px;
@@ -885,6 +889,7 @@ footer i {
         color: #bea67c;
         font-size: 100px;
     }
+
     #bottom-point05 {
         position: absolute;
         top: 6080px;
