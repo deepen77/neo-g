@@ -13,6 +13,7 @@ document.querySelector(".menu-bar").addEventListener("click", function () {
 var modal = document.getElementById("myModal");
 
 
+
 var btn = document.getElementById("myBtn1");
 
 
@@ -77,5 +78,30 @@ span.onclick = function () {
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
+  }
+}
+
+var modal_instruction = document.getElementById("myModalInstruction");
+
+var btn4 = document.getElementById("myBtn4");
+
+
+
+var span = document.getElementsByClassName("close_instruction")[0];
+
+
+btn4.onclick = function () {
+  modal_instruction.style.display = "block";
+}
+
+
+span.onclick = function () {
+  modal_instruction.style.display = "none";
+}
+
+
+window.onclick = function (event) {
+  if (event.target == modal_instruction) {
+    modal_instruction.style.display = "none";
   }
 }
