@@ -20,6 +20,11 @@ var btn = document.getElementById("myBtn1");
 
 var span = document.getElementsByClassName("close")[0];
 
+var modalVideo = document.getElementById("myModalVideo");
+
+var btnVideo = document.getElementById("myBtnVideo");
+
+var spanVideo = document.getElementsByClassName("close_video")[0];
 
 btn.onclick = function () {
   modal.style.display = "block";
@@ -103,5 +108,19 @@ span.onclick = function () {
 window.onclick = function (event) {
   if (event.target == modal_instruction) {
     modal_instruction.style.display = "none";
+  }
+}
+
+btnVideo.onclick = function() {
+  modalVideo.style.display = "block";
+}
+
+spanVideo.onclick = function() {
+  modalVideo.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modalVideo) {
+    modalVideo.style.display = "none";
   }
 }

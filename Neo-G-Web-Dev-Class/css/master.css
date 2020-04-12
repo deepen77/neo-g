@@ -216,20 +216,65 @@ nav {
     font-size: 50px;
     font-weight: 500;
 }
+video {
+    outline: 0 !important;
+}
 
-#video {
+button:focus {
+    outline: 0 !important;
+}
+#myBtnVideo {
     position: absolute;
     top: 850px;
     left: 27%;
-    color: #ffffff88;
+    color: #d5d2d289;
     font-size: 30px;
     font-weight: 500;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
 }
 
-#video a {
-    color: #ffffff88;
+.modalVideo {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(255, 255, 255); 
+    background-color: rgba(255, 255, 255, 0); 
+  }
+  
+  
+  .modal-content-video {
+    background-color: hsla(0, 0%, 100%, 0);
+    margin: 15% auto; 
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 80%; 
+    text-align: center;
+    
+  }
+  
+  
+  .close_video {
+    color:#bea67c;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  
+  .close_video:hover,
+  .close_video:focus {
+    color:#bea67c;
     text-decoration: none;
-}
+    cursor: pointer;
+    font-size: 40px;
+  }
 
 section.sec02 {
     height: 1080px;
@@ -983,6 +1028,12 @@ footer i {
         color: #bea67c;
         font-size: 100px;
     }
+
+    @media (max-width: 800px)
+{
+    video {
+        width: 400px;
+    }}
 
     /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
