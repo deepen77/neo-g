@@ -211,7 +211,7 @@ nav {
 .motto {
     position: absolute;
     top: 650px;
-    left: 25%;
+    left: 35%;
     color: #bea67cc4;
     font-size: 50px;
     font-weight: 500;
@@ -225,9 +225,10 @@ button:focus {
 }
 #myBtnVideo {
     position: absolute;
+    letter-spacing: 2px;
     top: 850px;
-    left: 27%;
-    color: #d5d2d289;
+    left: 35%;
+    color: #ffffffcc;
     font-size: 30px;
     font-weight: 500;
     background-color: rgba(255, 255, 255, 0);
